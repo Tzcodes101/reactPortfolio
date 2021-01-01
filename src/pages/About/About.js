@@ -7,7 +7,7 @@ function About() {
     return (
         // < !--Activate grid system-- >
         <div className="container">
-        <Navbar />
+        <NavBar />
             <div className="row">
 
                 {/* <!--Set responsive layout--> */}
