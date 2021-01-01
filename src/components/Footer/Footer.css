@@ -1,0 +1,10 @@
+/* Footer styling */
+footer {
+    border-top: 2px solid black;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    opacity: 95%;
+    background-color: grey;
+}
