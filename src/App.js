@@ -4,11 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import NavBar from "./components/NavBar"; 
-import Footer from "./components/Footer";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import NavBar from "./components/NavBar/NavBar"; 
+import Footer from "./components/Footer/Footer";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
 
@@ -16,17 +16,15 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Switch>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/portfolio">
+        <Route exact path="/portfolio">
           <Portfolio />
         </Route>
-        <Route path="/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
-      </Switch>
       <Footer />
     </Router>
   );
