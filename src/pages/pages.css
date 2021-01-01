@@ -1,0 +1,54 @@
+body {
+    /* background: linear-gradient(to bottom, #7927b2, #fb3182); */
+    background: linear-gradient(to bottom, #636364, #131212);
+}
+
+/* card styling */
+.card {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    border: none;
+    padding: 20px;
+    color: white;
+    /* background: linear-gradient(to bottom, #9533db, #e46497); */
+    background: linear-gradient(to bottom, #636364, #131212);
+}
+
+.card-contact {
+    margin-top: 5.5rem;
+}
+
+/*anchor tag styling*/
+a {
+  color: rgb(82, 78, 78);
+  font-weight: bold;
+}
+
+h4#port-title {
+    padding-top: 3rem;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* image of me styling */
+#photo-of-me {
+    margin: auto;
+    margin-right: 20rem;
+    margin-bottom: 1rem;
+    height: 20rem;
+    width: 14rem;
+}
+
+/*Portfolio image styling */
+.img-fluid {
+    margin-bottom: 1rem;
+    height: auto;
+    width: auto;
+}
+
+.port-card {
+    margin: 1rem;
+    margin-bottom: 7rem;
+    justify-content: center;
+}
