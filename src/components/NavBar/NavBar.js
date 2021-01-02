@@ -3,9 +3,6 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
-import About from "../pages/About/About"
-import Portfolio from "../pages/Portfolio/Portfolio";
-import Contact from "../pages/Contact/Contact";
 import "./NavBar.css";
 
 //router with links to diff pages depending on click
