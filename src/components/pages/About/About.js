@@ -57,14 +57,14 @@ function About() {
                                                     <p>
                                                         View my resume here: <a
                                                             href="https://drive.google.com/file/d/10m9lv4HtVC2qcNfRYYMJRT0eyHYZNTCU/view?usp=sharing"
-                                                            target="_blank">Resume</a>.
+                                                            target="_blank" rel="noreferror">Resume</a>.
                                                         <br></br>
                                                             View my GitHub profile here: <a href="https://github.com/Tzcodes101"
-                                                                target="_blank">My
+                                                                target="_blank" rel="noreferror">My
                                                         GitHub Profile</a>.<br></br>
                                                                 View my LinkedIn profile here: <a
                                                                     href="https://www.linkedin.com/in/talia-zisman-4b758a140/"
-                                                                    target="_blank">My
+                                                                    target="_blank" rel="noreferror">My
                                                         LinkedIn Profile</a>.
                                                     </p>
                                                 </div>
