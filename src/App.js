@@ -1,14 +1,13 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
   Route
 } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar"; 
 import Footer from "./components/Footer/Footer";
-import About from "./pages/About/About";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import Contact from "./pages/Contact/Contact";
+import About from "./components/pages/About/About";
+import Portfolio from "./components/pages/Portfolio/Portfolio";
+import Contact from "./components/pages/Contact/Contact";
 
 function App() {
 

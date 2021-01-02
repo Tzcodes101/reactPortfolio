@@ -5,7 +5,7 @@ function Portfolio () {
     return (
         
     // <!--Activate grid system-->
-    <div class="container">
+    <div className="container">
         
         <div className="row">
             {/* <!--Set responsive layout--> */}
@@ -20,8 +20,8 @@ function Portfolio () {
                     <div className="row">
 
 
-                            <div className="card port-card" style="width: 18rem;">
-                                <img src="./Screenshots/eatDaBurger.jpg" class="card-img-top" alt="image of app" style="height: 8rem;"></img>
+                            <div className="card port-card">
+                                <img src={"/assets/eatDaBurger.jpg"}  className="card-img-top" alt="app"></img>
                                 <div className="card-body">
                                   <h5 className="card-title">Eat Da Burger</h5>
                                   <p className="card-text">An application enabling a user to add and devour certain burgers. Type in a custom-burger, have it appear on one side, choose to devour it, and watch it move! <br></br>
@@ -31,8 +31,8 @@ function Portfolio () {
                                 </div>
                               </div>
 
-                              <div className="card port-card" style="width: 18rem;">
-                                <img src="./Screenshots/a_welcome.png" className="card-img-top" alt="image of app" style="height: 8rem;"></img>
+                              <div className="card port-card">
+                                <img src={"/assets/a_welcome.png"} className="card-img-top" alt="app"></img>
                                 <div className="card-body">
                                   <h5 className="card-title">Safe Space</h5>
                                   <p className="card-text">Cycle through inspirational quotes, choose sounds from a dropdown playlist, and search for soothing images, all with the goal of making a comfotable safe to process thoughts.<br></br>
@@ -42,8 +42,8 @@ function Portfolio () {
                                 </div>
                               </div>
 
-                              <div className="card port-card" style="width: 18rem;">
-                                <img src="./Screenshots/employeeTracker.jpg" className="card-img-top" alt="image of app" style="height: 8rem;"></img>
+                              <div className="card port-card">
+                                <img src={"/assets/employeeTracker.jpg"} className="card-img-top" alt="app"></img>
                                 <div className="card-body">
                                   <h5 className="card-title">Employee Tracker</h5>
                                   <p className="card-text">A CLI application to manage employees. A user can add, veiw, or remove departments, roles, and employees, as well as update employee managers..<br></br>

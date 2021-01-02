@@ -48,7 +48,12 @@ h4#port-title {
 }
 
 .port-card {
+    width: 18rem;
     margin: 1rem;
     margin-bottom: 7rem;
     justify-content: center;
+}
+
+.card-img-top {
+    height: 8rem;
 }
