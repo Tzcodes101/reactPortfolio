@@ -1,14 +1,12 @@
 import React from "react";
-import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/Footer/Footer";
-import "./pages.css";
+import "../pages.css";
 
 function Portfolio () {
     return (
         
     // <!--Activate grid system-->
     <div class="container">
-        <NavBar />
+        
         <div className="row">
             {/* <!--Set responsive layout--> */}
             <div className="col-lg-12 col-md-12 col-xs-12">
@@ -58,7 +56,6 @@ function Portfolio () {
             </div>
 
         </div>
-    <Footer />
     </div>
     )
 }

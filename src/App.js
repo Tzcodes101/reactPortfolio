@@ -12,19 +12,13 @@ import Contact from "./pages/Contact/Contact";
 
 function App() {
 
-  //Router with switch for url to diff pages
   return (
     <Router>
       <NavBar />
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
+      <Route exact path="/" component={About} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} /> 
       <Footer />
     </Router>
   );

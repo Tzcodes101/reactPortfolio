@@ -1,14 +1,11 @@
 import React from "react";
-import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/Footer/Footer";
-import "./pages.css";
+import "../pages.css";
 
 function Contact () {
     return (
         
     // <!--Activate grid system-->
     <div className="container">
-        <NavBar />
         <div className="row justify-content-md-center">
             {/* <!--Set responsive layout--> */}
             <div className="col-lg-5 col-md-9 col-xs-12">
@@ -59,7 +56,6 @@ function Contact () {
 
             </div>
         </div>
-    <Footer />
     </div>
     )
 }

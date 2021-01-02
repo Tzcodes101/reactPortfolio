@@ -1,13 +1,11 @@
 import React from "react";
-import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/Footer/Footer";
-import "./pages.css";
+import "../pages.css";
 
 function About() {
     return (
         // < !--Activate grid system-- >
         <div className="container">
-        <NavBar />
+        
             <div className="row">
 
                 {/* <!--Set responsive layout--> */}
@@ -78,7 +76,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            <Footer />
+           
             </div>
                                                
     )

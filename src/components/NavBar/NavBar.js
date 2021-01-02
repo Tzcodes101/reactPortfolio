@@ -2,11 +2,12 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import About from "../../pages/About/About"
+import Portfolio from "../../pages/Portfolio/Portfolio";
+import Contact from "../../pages/Contact/Contact";
 import "./NavBar.css";
 
 //router with links to diff pages depending on click
