@@ -11,6 +11,7 @@ import Contact from "./components/pages/Contact/Contact";
 
 function App() {
 
+
   return (
     <Router>
       <NavBar />
