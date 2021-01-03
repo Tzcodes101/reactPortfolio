@@ -55,6 +55,8 @@ function About() {
                                                     </p>
 
                                                     <p>
+                                                        Email: tzcodes101@gmail.com <br></br>
+                                                        Phone: (518) - 817 - 7206 <br></br>
                                                         View my resume here: <a
                                                             href="https://drive.google.com/file/d/10m9lv4HtVC2qcNfRYYMJRT0eyHYZNTCU/view?usp=sharing"
                                                             target="_blank" rel="noopener noreferror">Resume</a>.

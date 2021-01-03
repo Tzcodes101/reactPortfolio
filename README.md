@@ -5,6 +5,8 @@
 - Link to GitHub repository: https://github.com/Tzcodes101/reactPortfolio
 - Link to deployed site: 
 
+![Image of application](public/assets/reactPortresize.jpg)
+
 ## Description
 For this project, I re-wrote my previous portfolio using react. My previous portfolio can be found here: 
 
