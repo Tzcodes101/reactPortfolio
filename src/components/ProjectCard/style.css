@@ -1,0 +1,24 @@
+
+
+  .card {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    border: none;
+    padding: 20px;
+    color: white;
+    /* background: linear-gradient(to bottom, #9533db, #e46497); */
+    background: linear-gradient(to bottom, #636364, #131212);
+}
+
+a {
+    color: rgb(82, 78, 78);
+    font-weight: bold;
+  }
+
+  .port-card {
+    width: 18rem;
+    margin: 1rem;
+    margin-bottom: 7rem;
+    justify-content: center;
+}
+
