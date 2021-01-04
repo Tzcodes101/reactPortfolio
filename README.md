@@ -3,7 +3,7 @@
 ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
 
 - Link to GitHub repository: https://github.com/Tzcodes101/reactPortfolio
-- Link to deployed site: https://tzcodes101.github.io/reactPortfolio/
+- Link to deployed site: https://secret-tor-85567.herokuapp.com/about
 
 ![Image of application](public/assets/reactPortresize.jpg)
 
