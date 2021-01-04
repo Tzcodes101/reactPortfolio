@@ -22,7 +22,7 @@ function About() {
                                     <div className="row">
                                         <div className="col">
                                             {/* <!-- Image of Me --> */}
-                                            <img id="photo-of-me" src={"/assets/photoOfMe.JPG"}  alt="Photo of me"></img>
+                                            <img id="photo-of-me" src={require("/assets/photoOfMe.JPG")}  alt="Photo of me"></img>
                                         </div>
                                     </div>
 
