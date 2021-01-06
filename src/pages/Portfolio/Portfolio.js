@@ -1,10 +1,10 @@
 import React from "react";
 import "../pages.css";
-import projects from "../../../projects.json";
-import Wrapper from "../../Wrapper/index";
-import Row from "../../Row/index";
-import PortfolioTitle from "../../PortfolioTitle/index";
-import ProjectCard from "../../ProjectCard/index";
+import projects from "../../projects.json";
+import Wrapper from "../../components/Wrapper";
+import Row from "../../components/Row/index";
+import PortfolioTitle from "../../components/PortfolioTitle/index";
+import ProjectCard from "../../components/ProjectCard/index";
 
 class Portfolio extends React.Component {
 
@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
           {this.state.projects.map( project => (
             <ProjectCard 
               key={project.id}
-              image={project.img}
+              image={project.image}
               title={project.title}
               description={project.description}
               gitHub={project.gitHub}

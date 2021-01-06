@@ -3,11 +3,11 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar"; 
-import Footer from "./components/Footer/Footer";
-import About from "./components/pages/About/About";
-import Portfolio from "./components/pages/Portfolio/Portfolio";
-import Contact from "./components/pages/Contact/Contact";
+import NavBar from "./components/NavBar"; 
+import Footer from "./components/Footer";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
 
@@ -23,5 +23,8 @@ function App() {
     </Router>
   );
 }
+
+//create cloud to store images, and in project json, instead of giving path, give it a link to the cloud for the image 
+//check out photobucket and googlephotos 
 
 export default App;

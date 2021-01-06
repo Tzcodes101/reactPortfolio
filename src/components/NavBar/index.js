@@ -3,7 +3,7 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
-import "./NavBar.css";
+import "./style.css";
 
 //router with links to diff pages depending on click
 function NavBar() {

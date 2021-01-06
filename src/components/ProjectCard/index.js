@@ -4,7 +4,7 @@ import "./style.css";
 function ProjectCard(props) {
     return (
         <div className="card port-card" key={props.key}>
-            <img src={props.img} alt={props.title}></img>
+            <img src={props.image} alt={props.title}></img>
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description} <br></br>
