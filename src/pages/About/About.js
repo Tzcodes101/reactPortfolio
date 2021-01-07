@@ -1,87 +1,81 @@
 import React from "react";
 import "../pages.css";
 import Photo from "./photoOfMe.JPG";
+import { Wrapper, Row, Col, Section } from "../../components/Grid";
+
 
 function About() {
     return (
         // < !--Activate grid system-- >
-        <div className="container">
-        
-            <div className="row">
+        <Wrapper>
 
-                {/* <!--Set responsive layout--> */}
-                <div className="col-lg-10 col-md-10 col-xs-12">
-
-                    <div className="row">
+            <Row>
 
 
-                        <div className="col">
-                            {/* <!--Card edited from bootstrap--> */}
-                            <div className="card">
-                                <section className="card-body">
+                <Col>
+                    {/* <!--Card edited from bootstrap--> */}
+                    <div className="card">
+                        <Section>
 
-                                    <div className="row">
-                                        <div className="col">
-                                            {/* <!-- Image of Me --> */}
-                                            <img id="photo-of-me" src={Photo}  alt="Photo of me"></img>
-                                        </div>
-                                    </div>
+                            <Row>
+                                <Col>
+                                    {/* <!-- Image of Me --> */}
+                                    <img id="photo-of-me" src={Photo} alt="Photo of me"></img>
+                                </Col>
+                            </Row>
 
 
-                                        <div className="row">
-                                            <div className="col">
-                                                {/* <!--Heading--> */}
-                                                <h4 className="card-title">
-                                                    About Me
+                            <Row>
+                                <Col>
+                                    {/* <!--Heading--> */}
+                                    <h4 className="card-title">
+                                        About Me
                                                 </h4>
 
-                                                {/* <!--Card paragraphs--> */}
-                                                <div className="card-text">
-                                                    <p>
-                                                        My name is Talia Zisman, and I currently enrolled in Columbia
-                                                        Univerity's
-                                                        Full-Stack Web Development
-                                                        Bootcamp. I am skilled in HTML, CSS, JavaScript, MySQL, MongoDB, Mongoose, and Node.js.
-                                                        Through group-work, I have learned git workflow and
-                                                        team
-                                                        collaboration. Examples of my assignments and projects can
-                                                        be
-                                                        found
-                                                        on my porfolio page as well as on my GitHub page as pinned repositories.
-                                                        In
-                                                        my
-                                                        work, I strive to be concise and clean for a beautiful user interface
-                                                        and
-                                                        effective application.
+                                    {/* <!--Card paragraphs--> */}
+                                    <div className="card-text">
+                                        <p>
+                                            My name is Talia Zisman, and I currently enrolled in Columbia
+                                            Univerity's
+                                            Full-Stack Web Development
+                                            Bootcamp. I am skilled in HTML, CSS, JavaScript, MySQL, MongoDB, Mongoose, and Node.js.
+                                            Through group-work, I have learned git workflow and
+                                            team
+                                            collaboration. Examples of my assignments and projects can
+                                            be
+                                            found
+                                            on my porfolio page as well as on my GitHub page as pinned repositories.
+                                            In
+                                            my
+                                            work, I strive to be concise and clean for a beautiful user interface
+                                            and
+                                            effective application.
                                                     </p>
 
-                                                    <p>
-                                                        Email: tzcodes101@gmail.com <br></br>
+                                        <p>
+                                            Email: tzcodes101@gmail.com <br></br>
                                                         Phone: (518) - 817 - 7206 <br></br>
                                                         View my resume here: <a
-                                                            href="https://drive.google.com/file/d/10m9lv4HtVC2qcNfRYYMJRT0eyHYZNTCU/view?usp=sharing"
-                                                            target="_blank" rel="noopener noreferror">Resume</a>.
+                                                href="https://drive.google.com/file/d/10m9lv4HtVC2qcNfRYYMJRT0eyHYZNTCU/view?usp=sharing"
+                                                target="_blank" rel="noopener noreferror">Resume</a>.
                                                         <br></br>
                                                             View my GitHub profile here: <a href="https://github.com/Tzcodes101"
-                                                                target="_blank" rel="noopener noreferror">My
+                                                target="_blank" rel="noopener noreferror">My
                                                         GitHub Profile</a>.<br></br>
                                                                 View my LinkedIn profile here: <a
-                                                                    href="https://www.linkedin.com/in/talia-zisman-4b758a140/"
-                                                                    target="_blank" rel="noopener noreferror">My
+                                                href="https://www.linkedin.com/in/talia-zisman-4b758a140/"
+                                                target="_blank" rel="noopener noreferror">My
                                                         LinkedIn Profile</a>.
                                                     </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Section>
                     </div>
-                </div>
-           
-            </div>
-                                               
+                </Col>
+            </Row>
+        </Wrapper>
+
     )
 }
 

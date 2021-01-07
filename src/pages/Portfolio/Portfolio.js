@@ -1,8 +1,7 @@
 import React from "react";
 import "../pages.css";
 import projects from "../../projects.json";
-import Wrapper from "../../components/Wrapper";
-import Row from "../../components/Row/index";
+import { Wrapper, Row } from "../../components/Grid";
 import PortfolioTitle from "../../components/PortfolioTitle/index";
 import ProjectCard from "../../components/ProjectCard/index";
 

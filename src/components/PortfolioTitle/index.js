@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Section from "../Section/index";
+import { Section } from "../Grid";
 
 function PortfolioTitle(props) {
     return (
