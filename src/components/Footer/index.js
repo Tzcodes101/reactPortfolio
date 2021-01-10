@@ -3,8 +3,11 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             &#169; Copyright
+            <p className="pull-right">
+                <i className="fab fa-github"/> Written with React.js
+            </p>
         </footer>
     )
 }
