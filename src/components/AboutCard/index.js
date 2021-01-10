@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-// import { Row, Col, Section } from "../Grid";
 import AboutContext from "../../utils/AboutContext";
 
 function AboutCard() {

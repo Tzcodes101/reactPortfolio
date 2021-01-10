@@ -6,6 +6,7 @@ import AboutFormat from "../../components/AboutFormat";
 function About() {
 
     return(
+        
         <Wrapper>
             <Row>
                 <Col>
