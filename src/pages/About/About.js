@@ -1,39 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../pages.css";
-// import Photo from "./photoOfMe.JPG";
-import { Wrapper, Row, Col, Section } from "../../components/Grid";
-import Data from "../../aboutMe.json";
+import { Wrapper, Row, Col } from "../../components/Grid";
 import AboutFormat from "../../components/AboutFormat";
 
-class About extends React.Component {
-    state = {
-        Data
-    };
+function About() {
 
-    render() {
-    return (
-        
+    return(
         <Wrapper>
             <Row>
                 <Col>
                 
-                {this.state.Data.map(display => {
-                     <AboutFormat 
-                     key={display.id}
-                     text={display.text}
-                     email={display.email}
-                     phone={display.phone}
-                     resume={display.resume}
-                     gitHub={display.gitHub}
-                     linkedIn={display.linkedIn}
-                     />
-                })}
+                    <AboutFormat />
                 
                 </Col>
             </Row>
         </Wrapper>
+    )
 
-    )}
 }
 
 export default About;
