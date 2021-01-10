@@ -47,6 +47,6 @@ This project is responsive to various screen sizes, but is not mobile first. A m
 This project can be tested by following the usage instructions.
 
 ## Questions
-Please e-mail the creator, Talia Zisman, of this readMeGenerator with any questions.
+Please e-mail the creator, Talia Zisman, of this application with any questions.
 - E-mail: tzcodes101@gmail.com
 - GitHub: [tzcodes101](http://github.com/tzcodes101)
