@@ -2,11 +2,17 @@ import React, { useContext } from "react";
 import "./style.css";
 
 function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
-   
+
     return (
-        
+
         <div className="card port-card" key={key}>
-            <img src={image} alt={title}></img>
+            
+            <div className="row port-img-row">
+                
+                    <img src={image} alt={title} className="port-img"></img>
+             
+            </div>
+
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description} <br></br>

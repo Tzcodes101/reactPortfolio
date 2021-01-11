@@ -1,5 +1,4 @@
 
-
   .card {
     margin-top: 3rem;
     margin-bottom: 7rem;
@@ -21,4 +20,15 @@ a {
     margin-bottom: 7rem;
     justify-content: center;
 }
+
+.port-img {
+  height: 9rem;
+  width: 14.75rem;
+}
+
+.port-img-row {
+  justify-content: center;
+}
+
+
 
