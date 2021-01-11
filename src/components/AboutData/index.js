@@ -6,7 +6,7 @@ import AboutContext from "../../utils/AboutContext";
 import AboutCard from "../AboutCard/index";
 import "./style.css";
 
-function AboutFormat() {
+function AboutData() {
     const [aboutState, setAboutState] = useState({
         id: 0,
         text: "",
@@ -58,4 +58,4 @@ function AboutFormat() {
 
 }
 
-export default AboutFormat;
+export default AboutData;

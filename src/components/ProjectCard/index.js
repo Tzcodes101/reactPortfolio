@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./style.css";
 
-function ProjectCard(props) {
+function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
+   
     return (
-        <div className="card port-card" key={props.key}>
-            <img src={props.image} alt={props.title}></img>
+        
+        <div className="card port-card" key={key}>
+            <img src={image} alt={title}></img>
             <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.description} <br></br>
-                    <a href={props.gitHub} target="_blank" rel="noopener noreferror">Visit GitHub Repo.</a>
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{description} <br></br>
+                    <a href={gitHub} target="_blank" rel="noopener noreferror">Visit GitHub Repo.</a>
                 </p>
-                <a href={props.liveUrl} target="_blank" rel="noopener noreferror" className="btn btn-dark">View App</a>
+                <a href={liveUrl} target="_blank" rel="noopener noreferror" className="btn btn-dark">View App</a>
             </div>
         </div>
     )

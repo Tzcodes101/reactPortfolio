@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../pages.css";
 import { Wrapper, Row, Col } from "../../components/Grid";
-import AboutFormat from "../../components/AboutFormat";
+import AboutData from "../../components/AboutData";
 
 function About() {
 
@@ -11,7 +11,7 @@ function About() {
             <Row>
                 <Col>
                 
-                    <AboutFormat />
+                    <AboutData />
                 
                 </Col>
             </Row>

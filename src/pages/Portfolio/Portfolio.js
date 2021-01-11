@@ -2,8 +2,9 @@ import React from "react";
 import "../pages.css";
 import projects from "../../projects.json";
 import { Wrapper, Row } from "../../components/Grid";
+import PortfolioData from "../../components/PortfolioData";
 import PortfolioTitle from "../../components/PortfolioTitle/index";
-import ProjectCard from "../../components/ProjectCard/index";
+// import ProjectCard from "../../components/ProjectCard/index";
 
 class Portfolio extends React.Component {
 
@@ -19,16 +20,8 @@ class Portfolio extends React.Component {
         <PortfolioTitle>My Portfolio</PortfolioTitle>
        
         <Row>
-          {this.state.projects.map( project => (
-            <ProjectCard 
-              key={project.id}
-              image={project.image}
-              title={project.title}
-              description={project.description}
-              gitHub={project.gitHub}
-              liveUrl={project.liveUrl}
-            />
-          ))}
+          
+          <PortfolioData />
 
         </Row>
 
