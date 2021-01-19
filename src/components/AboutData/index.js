@@ -32,7 +32,7 @@ function AboutData() {
                 <Row>
                     <Col>
                         {/* <!-- Image of Me --> */}
-                        <img id="photo-of-me" src={Photo} alt="Photo of me"></img>
+                        <img id="photo-of-me" src={Photo} alt="me smiling"></img>
                     </Col>
                 </Row>
 

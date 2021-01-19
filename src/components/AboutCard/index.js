@@ -14,12 +14,12 @@ function AboutCard() {
                Phone: {phone}<br></br>
                View my resume here: <a
                     href={resume}
-                    target="_blank" rel="noopener noreferror">Resume</a>.<br></br>
+                    target="_blank" rel="noopener noreferrer">Resume</a>.<br></br>
                View my GitHub profile here: <a href={github}
-                    target="_blank" rel="noopener noreferror">My GitHub Profile</a>.<br></br>
+                    target="_blank" rel="noopener noreferrer">My GitHub Profile</a>.<br></br>
                View my LinkedIn profile here: <a
                     href={linkedin}
-                    target="_blank" rel="noopener noreferror">My LinkedIn Profile</a>.
+                    target="_blank" rel="noopener noreferrer">My LinkedIn Profile</a>.
            </p>
         </div>
     )

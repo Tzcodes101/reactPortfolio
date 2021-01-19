@@ -1,5 +1,6 @@
 import React from "react";
 import "../pages.css";
+import "./style.css";
 
 
 function Contact () {
