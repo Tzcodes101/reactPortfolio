@@ -24,7 +24,7 @@ const PortfolioData = () => {
             image: safeSpace,
             gitHub: "https://github.com/Tzcodes101/Safe-Space",
             liveUrl: "https://tzcodes101.github.io/Safe-Space/",
-            description: "Cycle through inspirational quotes, choose sounds from a dropdown playlist, and search for soothing images, all with the goal of making a comfotable safe to process thoughts."
+            description: "Cycle through inspirational quotes, choose sounds from a menu, and search for images, all with the goal of making a comfotable safe to process thoughts."
         },
         {
             id: 3,
@@ -40,7 +40,7 @@ const PortfolioData = () => {
             image: workoutTracker,
             gitHub: "https://github.com/Tzcodes101/workoutTracker",
             liveUrl: "https://tz-workout-tracker.herokuapp.com/",
-            description: "An application to reach fitness goals by tracking workouts. A user can view, create, and log multiple exercises on a given day. The user can input the type, weight, name, sets, reps, duration, and distance (for cardio) of an exercise."
+            description: "An application to reach fitness goals. A user can view, create, and log multiple exercises on a given day. The user can input details for weightlifting or cardio."
         },
         {
             id: 5,
@@ -56,7 +56,7 @@ const PortfolioData = () => {
             image: weatherDash,
             gitHub: "https://github.com/Tzcodes101/weatherApp",
             liveUrl: "https://tzcodes101.github.io/weatherApp/",
-            description: "An application to view the weather in any city. A user can obtain the current and five-day forecast with color coded UV indices, as well as select cities from a history."
+            description: "An application to view the weather in any city. A user can obtain the current and five-day forecast with color coded UV indices, as well as select cities from that are saved to history."
         }
 
     ]);

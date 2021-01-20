@@ -1,10 +1,11 @@
 import React from "react";
+import { Section } from "../Grid";
 import "./style.css";
 
 function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
 
     return (
-
+        <Section>
         <div className="card port-card" key={key}>
             
             <div className="row port-img-row">
@@ -21,6 +22,7 @@ function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
                 <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark">View App</a>
             </div>
         </div>
+        </Section>
     )
 }
 

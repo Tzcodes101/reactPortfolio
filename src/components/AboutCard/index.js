@@ -5,12 +5,11 @@ function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext); 
     return (
 
-
         <div className="card-text" key={id}>
             <p>{text}</p>
 
             <p>
-                Email: {email}<br></br>
+               Email: {email}<br></br>
                Phone: {phone}<br></br>
                View my resume here: <a
                     href={resume}
