@@ -6,9 +6,11 @@ function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext);
     return (
         <div className="about-data" key={id}>
-            <p>{text} </p>
+
             <div className="row">
-                <div className="columns contact-details">
+                <div className="contact-details">
+                    <h2>About Me</h2>
+                    <p>{text} </p>
                     <h2>Contact Details</h2>
                     <p className="address">
                         <Row>
@@ -16,6 +18,18 @@ function AboutCard() {
                             <Col>
                                 <span>{phone}</span><br />
                                 <span>{email}</span><br />
+                                {/* <span><a href={resume} className="button"><i className="fa fa-download"></i> Download Resume</a></span> */}
+                                <ul className="social">
+                                    <li>
+                                        <a href={github} className="button" target="_blank noopener norefferer"><i className="fab fa-github" />  </a>
+                                    </li>
+                                    <li>
+                                        <a href={linkedin} className="button" target="_blank noopener norefferer"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href={resume} className="button" target="_blank noopener norefferer"><i class="far fa-file"></i></a>
+                                    </li>
+                                </ul>
                             </Col>
 
 
@@ -24,9 +38,22 @@ function AboutCard() {
                 </div>
                 <div className="links">
                     <Col>
-                        <span><a href={github} className="button">Visit GitHub</a></span><br />
-                        <span><a href={linkedin} className="button">Visit LinkedIn</a></span><br />
-                        <span><a href={resume} className="button"><i className="fa fa-download"></i>Download Resume</a></span>
+                        {/* <ul className="social"> */}
+                        {/* <li>
+                                    <a href={github} className="button"><i className="fab fa-github" />  </a>
+                                </li>
+                                <li>
+                                    <a href={linkedin} className="button"><i class="fab fa-linkedin-in"></i></a>
+                                </li> */}
+                        {/* <li>
+                            <a href={resume} className="button" target="_blank noopener norefferer"><i class="fas fa-file"></i> View Resume</a>
+                        </li> */}
+
+
+
+                        {/* </ul> */}
+
+
                     </Col>
                 </div>
             </div>

@@ -34,14 +34,14 @@ function AboutData() {
                     <div className="pic-col">
                         <img className="profile-pic" src={Photo} alt="Talia Zisman Profile Pic" />
                     </div>
-                    <div className="info-col">
-                        <h2>About Me</h2>
+                    {/* <div className="info-col">
+                        <h2>About Me</h2> */}
 
 
                         <AboutContext.Provider value={aboutState}>
                             <AboutCard />
                         </AboutContext.Provider>
-                    </div>
+                    {/* </div> */}
                 </div>
             </Row>
 
