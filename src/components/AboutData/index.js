@@ -26,33 +26,50 @@ function AboutData() {
 
 
     return (
-        <div className="card">
-            <Section>
+        <section id="about">
+            <Row>
 
-                <Row>
-                    <Col>
-                        {/* <!-- Image of Me --> */}
-                        <img id="photo-of-me" src={Photo} alt="me smiling"></img>
-                    </Col>
-                </Row>
+                <div className="main-col">
+
+                    <div className="pic-col">
+                        <img className="profile-pic" src={Photo} alt="Talia Zisman Profile Pic" />
+                    </div>
+                    <div className="info-col">
+                        <h2>About Me</h2>
 
 
-                <Row>
-                    <Col>
-                        {/* <!--Heading--> */}
-                        <h4 className="card-title">
-                            About Me
-                        </h4>
-
-                        {/* <!--Card paragraphs--> */}
                         <AboutContext.Provider value={aboutState}>
                             <AboutCard />
                         </AboutContext.Provider>
+                    </div>
+                </div>
+            </Row>
 
-                    </Col>
-                </Row>
-            </Section>
-        </div>
+        </section>
+        // <div className="card">
+        //     <Section>
+
+        //         <Row>
+        //             <Col>
+        //                 {/* <!-- Image of Me --> */}
+        //                 <img id="photo-of-me" src={Photo} alt="me smiling"></img>
+        //             </Col>
+
+        //             <Col>
+        //                 {/* <!--Heading--> */}
+        //                 <h4 className="card-title">
+        //                     About Me
+        //                 </h4>
+
+        //                 {/* <!--Card paragraphs--> */}
+        //                 <AboutContext.Provider value={aboutState}>
+        //                     <AboutCard />
+        //                 </AboutContext.Provider>
+
+        //             </Col>
+        //         </Row>
+        //     </Section>
+        // </div>
 
     )
 

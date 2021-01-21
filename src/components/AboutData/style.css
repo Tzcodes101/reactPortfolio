@@ -1,22 +1,76 @@
-.card {
-    margin-top: 3rem;
-    margin-bottom: 7rem;
-    border: none;
-    padding: 20px;
-    color: white;
-    background: linear-gradient(to bottom, #636364, #131212);
+
+
+  #about {
+    background: hsl(0, 0%, 17%);
+    padding-top: 9rem;
+    padding-bottom: 66px;
+    overflow: hidden;
+ }
+
+ a {
+   color: rgb(82, 78, 78);
+   font-weight: bold;
+ }
+ 
+ #about a, #about a:visited  { color: #fff; }
+ #about a:hover, #about a:focus { color: #11ABB0; }
+ 
+ #about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+ }
+ #about p {
+    line-height: 30px;
+    color: #7A7A7A;
+ }
+ #about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ }
+
+ #about .pic-col {
+   float: left;
+   padding-right: 5%;
+   margin-top: 5%;
+ }
+
+ #about .main-col { 
+     padding-right: 8%; 
+     padding-left: 12%;
+ }
+
+ #about .links {
+    padding-left: 3%;
+    float: right;
+ }
+
+
+@media only screen and (max-width: 900px) {
+
+     #about .profile-pic {
+      width: 114px;
+      height: 114px;
+      margin-left: 12px;
+   }
+   #about .contact-details { width: 50%; }
+   #about .links { width: 50%; }
 }
 
-#photo-of-me {
-    margin: auto;
-    margin-right: 20rem;
-    margin-bottom: 1rem;
-    height: 20rem;
-    width: 14rem;
+@media only screen and (max-width: 767px) {
+   #about .profile-pic { display: none; }
+   #about .links .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .main-col { padding-right: 30px; }
 }
 
-a {
-    color: rgb(82, 78, 78);
-    font-weight: bold;
-  }
+ 
+
+ 
+   
 

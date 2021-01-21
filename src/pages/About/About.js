@@ -7,7 +7,7 @@ function About() {
 
     return(
         
-        <Wrapper>
+       
             <Row>
                 <Col>
                 
@@ -15,7 +15,7 @@ function About() {
                 
                 </Col>
             </Row>
-        </Wrapper>
+        
     )
 
 }
