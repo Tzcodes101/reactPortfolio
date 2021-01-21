@@ -8,8 +8,15 @@ import Footer from "./components/Footer";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
+//add resume
 
 function App() {
+
+  //set resume state
+
+  //get resume data function
+
+  //useEffect (when page mounts call getResumeData)
 
 
   return (

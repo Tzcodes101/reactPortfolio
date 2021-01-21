@@ -7,9 +7,22 @@ import "./style.css";
 
 //router with links to diff pages depending on click
 function NavBar() {
+
+  //set name, occupation, description, city and networks as props from resume data
+  //add in social icons with href to link
+    //map over data.social
   const location = useLocation();
 
   return (
+    // show vs hid navigation
+
+    //make list component...?
+    //unordered list for home, about, resume, works, testimonials, and contact
+
+    //banner row with self-introduction and social networks
+
+    //smooth scrolldown
+      
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <h1 className="navbar-brand">Talia Zisman</h1>
       <ul className="navbar-nav">
