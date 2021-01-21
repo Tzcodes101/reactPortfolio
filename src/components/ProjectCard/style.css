@@ -4,15 +4,19 @@
     margin-bottom: 7rem;
     border: none;
     padding: 20px;
-    color: white;
+    line-height: 30px;
+    color: #7A7A7A;
     /* background: linear-gradient(to bottom, #9533db, #e46497); */
     background: linear-gradient(to bottom, #636364, #131212);
 }
 
 a {
-    color: rgb(82, 78, 78);
-    font-weight: bold;
-  }
+  color: rgb(82, 78, 78);
+  font-weight: bold;
+}
+
+a, a:visited  { color: white; }
+a:hover, a:focus { color: #11ABB0; }
 
   .port-card {
     width: 18rem;

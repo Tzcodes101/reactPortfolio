@@ -1,26 +1,33 @@
 import React, { useContext } from "react";
 import AboutContext from "../../utils/AboutContext";
+import { Row, Col } from "../Grid";
 
 function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext);
     return (
         <div className="about-data" key={id}>
-            <p>{text}</p>
+            <p>{text} </p>
             <div className="row">
                 <div className="columns contact-details">
                     <h2>Contact Details</h2>
                     <p className="address">
-                        
-                        <span>{phone}</span><br />
-                        <span>{email}</span>
+                        <Row>
+
+                            <Col>
+                                <span>{phone}</span><br />
+                                <span>{email}</span><br />
+                            </Col>
+
+
+                        </Row>
                     </p>
                 </div>
                 <div className="links">
-                    <p>
-                        {/* <a href={github} className="button">Visit GitHub</a><br></br>
-                        <a href={linkedin} className="button">Visit LinkedIn</a><br></br> */}
-                        <a href={resume} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                    </p>
+                    <Col>
+                        <span><a href={github} className="button">Visit GitHub</a></span><br />
+                        <span><a href={linkedin} className="button">Visit LinkedIn</a></span><br />
+                        <span><a href={resume} className="button"><i className="fa fa-download"></i>Download Resume</a></span>
+                    </Col>
                 </div>
             </div>
 
