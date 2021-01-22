@@ -28,7 +28,7 @@ const PortfolioData = () => {
         },
         {
             id: 3,
-            title: "React Google Book Search",
+            title: "Book Search",
             image: bookSearch,
             gitHub: "https://github.com/Tzcodes101/gooleBooks",
             liveUrl: "https://powerful-beach-19496.herokuapp.com/",

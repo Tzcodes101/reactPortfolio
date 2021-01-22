@@ -39,7 +39,10 @@
 }
 
 @media only screen and (max-width: 767px) {
- 
+   #about { 
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
    .profile-pic { display: none; }
    .main-col { padding-right: 30px; }
 }

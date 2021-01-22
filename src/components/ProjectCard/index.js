@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Row, Col } from "../Grid";
+import { Row, Col } from "../Grid";
 import "./style.css";
 
 function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
@@ -14,20 +14,29 @@ function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
 
                     <Row>
                         <Col>
-                            <div className="port-text">
-                                <h3>{title}</h3>
-                                <p className="description">{description} <span>&bull;</span></p>
+                            <div id="title">
+                                <h3><span>{title}</span></h3>
+                                <a href={liveUrl} target="_blank" rel="noopener noreferrer"><i class="fas fa-link" /> Live Site</a><br />
+                                <a href={gitHub} target="_blank" rel="noopener noreferrer"><i class="fas fa-link" /> GitHub</a>
                             </div>
-                            <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark">View App</a>
-                            <a href={gitHub} target="_blank" rel="noopener noreferrer">Visit GitHub Repo.</a>
+                            <div id="port-text">
+
+                                <p className="description">{description} </p>
+
+                            </div>
+                        </Col>
+
+                        <Col>
+
+                            <div className="port-img-col">
+
+                                <img src={image} alt={title} className="port-img"></img>
+
+                            </div>
                         </Col>
 
 
-                        <div className="port-img-col">
 
-                            <img src={image} alt={title} className="port-img"></img>
-
-                        </div>
                     </Row>
 
 
@@ -36,25 +45,6 @@ function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
 
 
         </section >
-
-        // <Section>
-        // <div className="card port-card" key={key}>
-
-        //     <div className="row port-img-row">
-
-        //             <img src={image} alt={title} className="port-img"></img>
-
-        //     </div>
-
-        //     <div className="card-body">
-        //         <h5 className="card-title">{title}</h5>
-        //         <p className="card-text">{description} <br></br>
-        //             <a href={gitHub} target="_blank" rel="noopener noreferrer">Visit GitHub Repo.</a>
-        //         </p>
-        //         <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark">View App</a>
-        //     </div>
-        // </div>
-        // </Section>
     )
 }
 

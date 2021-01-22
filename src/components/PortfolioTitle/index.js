@@ -5,7 +5,7 @@ import { Section } from "../Grid";
 function PortfolioTitle(props) {
     return (
     <Section>
-        <h4 className="card-title" id="port-title">{props.children}</h4>
+        <h2 className="card-title" id="port-title">{props.children}</h2>
     </Section>
     );
 }

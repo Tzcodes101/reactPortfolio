@@ -39,6 +39,7 @@ This project is covered by the ISC license.
 
 ## Future Development
 This project is responsive to various screen sizes, but is not mobile first. A more developed version would be mobile-first and include a humburger menu for navigation upon reaching a certain screen size. The contact form is also still non-functional, and a completed version will have this feature working. 
+- Ability to click on image thumbnail for a larger image display
 
 ## Contributors
 - Talia Zisman

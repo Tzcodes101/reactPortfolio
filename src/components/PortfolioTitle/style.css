@@ -1,6 +1,8 @@
-h4#port-title {
+h2#port-title {
     padding-top: 3rem;
-    font-size: 30px;
-    color: white;
+    font: 37px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 3rem;
     text-align: center;
 }
+
