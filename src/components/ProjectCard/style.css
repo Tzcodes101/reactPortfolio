@@ -64,29 +64,51 @@ h3 {
       padding-right: 8rem;
     }
     .port-img-col {
+      padding-left: 1rem;
       justify-content: center;
     }
     .port-img {
-     width: 300px;
-     height: 200px;
+     width: 350px;
+     height: 220px;
   }
+
+  #title {
+    padding-top: 1.5rem;
+  }
+
   h3 {
     padding-bottom: 1rem;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
   #portfolio {
     padding-left: 1rem;
     padding-right: 1rem;
   }
   .port-img {
-    width: 360px;
-    height: 200px;
+    width: 300px;
+    height: 270px;
+ }
+ .port-img-col {
+  float: none;
+  padding-left: 0;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  #portfolio {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .port-img {
+    width: 250px;
+    height: 155px;
  }
  .port-img-col {
   float: none;
 }
+ 
 }
 
 
