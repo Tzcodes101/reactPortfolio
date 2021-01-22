@@ -5,7 +5,7 @@
 - Link to GitHub repository: https://github.com/Tzcodes101/reactPortfolio
 - Link to deployed site: https://secret-tor-85567.herokuapp.com/about
 
-![Image of application](public/assets/reactPortresize.jpg)
+![Image of application](public/assets/portSHResized.jpg)
 
 ## Description
 For this project, I re-wrote my previous portfolio using react. My previous portfolio can be found here: 
@@ -13,7 +13,7 @@ For this project, I re-wrote my previous portfolio using react. My previous port
 - Link to GitHub repository: https://github.com/Tzcodes101/updatedPortfolio
 - Link to live site: https://tzcodes101.github.io/updatedPortfolio/
 
-This react portfolio has "About Me," "Contact Me," and "My Portfolio" pages. The contact form is not yet active. The layout functions off of Bootstrap 4 and the grid system. The portfolio features three homework assignments I feel went well. The code for these items can be accessed through the portfolio page on the site. My GitHub, LinkedIn, and resume can be accessed on the "About Me" page.
+This react portfolio features "About Me" and "My Portfolio" pages. The portfolio features homework assignments and group projects I feel went well. The code for these items can be accessed through the portfolio section on the site. My GitHub, LinkedIn, and resume can be accessed from the "About Me" section.
 
 
 ## Table of Contents
@@ -38,8 +38,9 @@ To use this project, a user must navigate to the deployed URL.
 This project is covered by the ISC license.
 
 ## Future Development
-This project is responsive to various screen sizes, but is not mobile first. A more developed version would be mobile-first and include a humburger menu for navigation upon reaching a certain screen size. The contact form is also still non-functional, and a completed version will have this feature working. 
+- Scrolldown icon in "About Me" section to navigate user to "Portfolio" section
 - Ability to click on image thumbnail for a larger image display
+- Funcitonal contact form
 
 ## Contributors
 - Talia Zisman
