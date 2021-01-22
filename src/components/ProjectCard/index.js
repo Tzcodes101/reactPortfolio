@@ -1,31 +1,39 @@
 import React from "react";
-import { Section } from "../Grid";
+import { Section, Row, Col } from "../Grid";
 import "./style.css";
 
 function ProjectCard({ key, title, image, gitHub, liveUrl, description }) {
 
     return (
-        <section id="portfolio">
+        <section id="portfolio" key={key}>
 
             <div className="row project-row">
-                <div className="col port-img-col">
-
-                    <img src={image} alt={title} className="port-img"></img>
-
-                </div>
 
                 <div className="main-col">
-                    <div className="row">
 
-                        <div key={key}>
-                            <h3>{title}</h3>
-                            <p>{description}</p>
+
+                    <Row>
+                        <Col>
+                            <div className="port-text">
+                                <h3>{title}</h3>
+                                <p className="description">{description} <span>&bull;</span></p>
+                            </div>
+                            <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark">View App</a>
+                            <a href={gitHub} target="_blank" rel="noopener noreferrer">Visit GitHub Repo.</a>
+                        </Col>
+
+
+                        <div className="port-img-col">
+
+                            <img src={image} alt={title} className="port-img"></img>
+
                         </div>
-                        <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-dark">View App</a>
-                        <a href={gitHub} target="_blank" rel="noopener noreferrer">Visit GitHub Repo.</a>
-                    </div>
+                    </Row>
+
+
                 </div>
             </div>
+
 
         </section >
 

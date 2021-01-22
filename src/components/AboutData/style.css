@@ -3,6 +3,8 @@
     padding-top: 8rem;
     padding-bottom: 66px;
     overflow: hidden;
+   padding-left: 10rem;
+   padding-right: 7rem;
  }
 
 .profile-pic {
@@ -19,17 +21,20 @@
  }
 
 .main-col { 
-     padding-right: 8%; 
+     padding-right: 15%; 
      padding-left: 12%;
  }
 
 @media only screen and (max-width: 900px) {
-   #about { padding-top: 2rem;}
+   #about { 
+      padding-top: 2rem;
+      padding-right: 6rem;
+   }
 
      .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
+      margin-left: 8px;
    }
 }
 

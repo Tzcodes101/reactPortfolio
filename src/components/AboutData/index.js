@@ -28,7 +28,7 @@ function AboutData() {
     return (
         <section id="about">
             <div className="row hi">
-                <h1 id="hi">Hi, I'm Talia,</h1>
+                <h1 id="hi">Hi, I'm Talia</h1>
             </div>
             <div className="row sub-hi">
                 <h1 id="sub-hi">A Software Engineer.</h1>
