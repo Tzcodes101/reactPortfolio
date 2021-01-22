@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Photo from "./photoOfMe.JPG";
-import { Row, Col, Section } from "../Grid";
+import { Row } from "../Grid";
 import * as API from "../../utils/API";
 import AboutContext from "../../utils/AboutContext";
 import AboutCard from "../AboutCard/index";

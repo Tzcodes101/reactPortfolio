@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages.css";
-import { Wrapper, Row, Col } from "../../components/Grid";
+import { Row, Col } from "../../components/Grid";
 import AboutData from "../../components/AboutData";
 
 function About() {
