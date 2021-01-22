@@ -38,6 +38,7 @@ To use this project, a user must navigate to the deployed URL.
 This project is covered by the ISC license.
 
 ## Future Development
+- Addition of a mobile-first responsive layout
 - Scrolldown icon in "About Me" section to navigate user to "Portfolio" section
 - Ability to click on image thumbnail for a larger image display
 - Funcitonal contact form
