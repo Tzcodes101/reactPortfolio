@@ -48,7 +48,7 @@ const PortfolioData = () => {
             image: employeeTracker,
             gitHub: "https://github.com/Tzcodes101/employeeTracker",
             liveUrl: "https://drive.google.com/file/d/1Vy--kRTFCeRb2ODrGDQcH5TCDpO4ByTc/view",
-            description: "A command-line-interface application to manage employees. A user can add, veiw, or remove departments, roles, and employees, as well as update employee managers."
+            description: "A command-line-interface application to manage employees. A user can add, view, or remove departments, roles, and employees, as well as update employee managers."
         },
         {
             id: 6,

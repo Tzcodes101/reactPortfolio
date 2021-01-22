@@ -1,10 +1,17 @@
 /* Footer styling */
 footer {
-    border-top: 2px solid black;
     bottom: 0;
     width: 100%;
     padding: 2rem;
     text-align: center;
-    opacity: 95%;
-    background-color: grey;
+    background-color: rgb(31, 29, 29);
 }
+
+.social li {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0px;
+    font-weight: lighter;
+ }
+ .social li a { color: #fff; }
+ .social li a:hover { color: #11ABB0; }
