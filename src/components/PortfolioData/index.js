@@ -30,7 +30,7 @@ const PortfolioData = () => {
             id: 3,
             title: "Book Search",
             image: bookSearch,
-            gitHub: "https://github.com/Tzcodes101/gooleBooks",
+            gitHub: "https://github.com/Tzcodes101/googleBooks",
             liveUrl: "https://powerful-beach-19496.herokuapp.com/",
             description: "An application to search for and save books from Google's API. A user can view and save books for later purchase."
         },
