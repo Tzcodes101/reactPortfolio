@@ -1,10 +1,11 @@
 /* navbar styling*/
-.navbar {
+/* .navbar {
     border-bottom: 2px solid black;
     padding-left: 0;
-}
+} */
 
 /* navbar heading styling */
 .navbar-brand {
     font-weight: 600;
 }
+

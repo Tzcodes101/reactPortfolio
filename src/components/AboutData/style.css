@@ -1,10 +1,27 @@
-
-
-  #about {
+#about {
     background: hsl(0, 0%, 17%);
-    padding-top: 9rem;
+    padding-top: 8rem;
     padding-bottom: 66px;
     overflow: hidden;
+ }
+
+ #hi {
+    color: rgb(160, 153, 92);
+    font-size: 65px;
+ }
+
+ #sub-hi {
+    color:#7A7A7A;
+ }
+
+ .hi {
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+ }
+
+ .sub-hi {
+    padding-left: 17rem;
+    padding-bottom: 4rem;
  }
 
  a {
@@ -62,6 +79,7 @@
 
 
 @media only screen and (max-width: 900px) {
+   #about { padding-top: 2rem;}
 
      #about .profile-pic {
       width: 114px;
@@ -70,10 +88,14 @@
    }
    #about .contact-details { width: 90%; }
    #about .links { width: 50%; }
+   #sub-hi { display: none; }
+   
 }
 
 @media only screen and (max-width: 767px) {
+ 
    #about .profile-pic { display: none; }
+   #hi { display: none; }
    #about .links .button {
       width: 100%;
       text-align: center;

@@ -6,6 +6,7 @@ function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext);
     return (
         <div className="about-data" key={id}>
+            
 
             <div className="row">
                 <div className="contact-details">

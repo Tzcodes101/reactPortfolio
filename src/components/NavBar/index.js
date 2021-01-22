@@ -1,19 +1,19 @@
-import React from "react";
-import {
-  Link,
-  useLocation
-} from "react-router-dom";
-import "./style.css";
+// import React from "react";
+// import {
+//   Link,
+//   useLocation
+// } from "react-router-dom";
+// import "./style.css";
 
-//router with links to diff pages depending on click
-function NavBar() {
+// //router with links to diff pages depending on click
+// function NavBar() {
 
-  //set name, occupation, description, city and networks as props from resume data
-  //add in social icons with href to link
-    //map over data.social
-  const location = useLocation();
+//   //set name, occupation, description, city and networks as props from resume data
+//   //add in social icons with href to link
+//   //map over data.social
+//   const location = useLocation();
 
-  return (
+//   return (
     // show vs hid navigation
 
     //make list component...?
@@ -22,32 +22,35 @@ function NavBar() {
     //banner row with self-introduction and social networks
 
     //smooth scrolldown
-      
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <h1 className="navbar-brand">Talia Zisman</h1>
-      <ul className="navbar-nav">
-      <li className="nav-item">
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-          About Me
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-          Portfolio
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-          Contact
-        </Link>
-      </li>
-      </ul>
-    </nav>
-  )
+    // <div className="jumbotron">
+    //   <h1 className="display-4">Hi, I'm Talia.</h1>
+    // </div>
 
-}
+    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    //   <h1 className="navbar-brand">Talia Zisman</h1>
+    //   <ul className="navbar-nav">
+    //   <li className="nav-item">
+    //     <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+    //       About Me
+    //     </Link>
+    //   </li>
+    //   <li className="nav-item">
+    //     <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+    //       Portfolio
+    //     </Link>
+    //   </li>
+    //   <li className="nav-item">
+    //     <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+    //       Contact
+    //     </Link>
+    //   </li>
+    //   </ul>
+    // </nav>
+  // )
 
-export default NavBar;
+// }
+
+// export default NavBar;
 // class NavBar extends React.Component {
 //   constructor(props) {
 //     super(props);
