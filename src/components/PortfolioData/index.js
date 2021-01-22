@@ -5,7 +5,7 @@ import safeSpace from "./images/a_welcome.png";
 import employeeDirectory from "./images/employeeDirectory2resize.jpg";
 import employeeTracker from "./images/employeeTracker.jpg";
 import perchReview from "./images/Perch.png";
-import workoutTracker from "./images/workoutTracker.jpg";
+import investor from "./images/shrewedInSHResized.jpg";
 
 
 const PortfolioData = () => {
@@ -36,11 +36,11 @@ const PortfolioData = () => {
         },
         {
             id: 4,
-            title: "Workout Tracker",
-            image: workoutTracker,
-            gitHub: "https://github.com/Tzcodes101/workoutTracker",
-            liveUrl: "https://tz-workout-tracker.herokuapp.com/",
-            description: "An application to reach fitness goals. A user can view, create, and log multiple exercises on a given day. The user can input details for weightlifting or cardio."
+            title: "Shrewd Investor",
+            image: investor,
+            gitHub: "https://github.com/SarahMyriam/Shrewd-Investor",
+            liveUrl: "https://shrewd-investor.herokuapp.com/",
+            description: "An application for new investors to learn about buying stocks. A user can see stock data and add a company to their portfolio."
         },
         {
             id: 5,
