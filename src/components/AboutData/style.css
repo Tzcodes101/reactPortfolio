@@ -5,103 +5,38 @@
     overflow: hidden;
  }
 
- #hi {
-    color: rgb(160, 153, 92);
-    font-size: 65px;
- }
-
- #sub-hi {
-    color:#7A7A7A;
- }
-
- .hi {
-    padding-left: 10rem;
-    padding-bottom: 1rem;
- }
-
- .sub-hi {
-    padding-left: 17rem;
-    padding-bottom: 4rem;
- }
-
- a {
-   color: rgb(82, 78, 78);
-   font-weight: bold;
- }
- 
- #about a, #about a:visited  { color: white; }
- #about a:hover, #about a:focus { color: #11ABB0; }
- 
- #about h2 {
-    font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
-    margin-bottom: 12px;
- }
- #about p {
-    line-height: 30px;
-    color: #7A7A7A;
- }
- #about .profile-pic {
+.profile-pic {
     position: relative;
     width: 120px;
     height: 120px;
     border-radius: 100%;
  }
 
- #about .pic-col {
+.pic-col {
    float: left;
    padding-right: 5%;
    margin-top: 5%;
  }
 
- #about .main-col { 
+.main-col { 
      padding-right: 8%; 
      padding-left: 12%;
  }
 
- #about .links {
-    padding-left: 0.75%;
-    float: right;
- }
-
- .social {
-   padding: 0;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
-}
-.social li {
-   display: inline-block;
-   margin: 0 8px;
-   padding: 0px;
-   font-weight: lighter;
-}
-.social li a { color: #fff; }
-.social li a:hover { color: #11ABB0; }
-
-
 @media only screen and (max-width: 900px) {
    #about { padding-top: 2rem;}
 
-     #about .profile-pic {
+     .profile-pic {
       width: 114px;
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 90%; }
-   #about .links { width: 50%; }
-   #sub-hi { display: none; }
-   
 }
 
 @media only screen and (max-width: 767px) {
  
-   #about .profile-pic { display: none; }
-   #hi { display: none; }
-   #about .links .button {
-      width: 100%;
-      text-align: center;
-      padding: 15px 20px;
-   }
-   #about .main-col { padding-right: 30px; }
+   .profile-pic { display: none; }
+   .main-col { padding-right: 30px; }
 }
 
  

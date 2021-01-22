@@ -1,19 +1,20 @@
 import React, { useContext } from "react";
 import AboutContext from "../../utils/AboutContext";
 import { Row, Col } from "../Grid";
+import "./style.css";
 
 function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext);
     return (
         <div className="about-data" key={id}>
-            
+
 
             <div className="row">
                 <div className="contact-details">
                     <h2>About Me</h2>
                     <p>{text} </p>
                     <h2>Contact Details</h2>
-                    <p className="address">
+                    <p className="contact-details">
                         <Row>
 
                             <Col>
@@ -57,6 +58,8 @@ function AboutCard() {
 
                     </Col>
                 </div>
+                {/* add scrolldown to portfolio here */}
+                
             </div>
 
         </div>

@@ -1,5 +1,5 @@
 
-  .card {
+  /* .card {
     margin-top: 3rem;
     margin-bottom: 7rem;
     border: none;
@@ -7,8 +7,8 @@
     line-height: 30px;
     color: #7A7A7A;
     /* background: linear-gradient(to bottom, #9533db, #e46497); */
-    background: linear-gradient(to bottom, #636364, #131212);
-}
+    /* background: linear-gradient(to bottom, #636364, #131212);
+} */ */
 
 a {
   color: rgb(82, 78, 78);

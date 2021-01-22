@@ -28,10 +28,10 @@ function AboutData() {
     return (
         <section id="about">
             <div className="row hi">
-                <h1 id="hi">Hi, I'm Talia.</h1>
+                <h1 id="hi">Hi, I'm Talia,</h1>
             </div>
             <div className="row sub-hi">
-                <h1 id="sub-hi">A Software Engineer</h1>
+                <h1 id="sub-hi">A Software Engineer.</h1>
             </div>
             <Row>
 
@@ -40,42 +40,16 @@ function AboutData() {
                     <div className="pic-col">
                         <img className="profile-pic" src={Photo} alt="Talia Zisman Profile Pic" />
                     </div>
-                    {/* <div className="info-col">
-                        <h2>About Me</h2> */}
-
 
                     <AboutContext.Provider value={aboutState}>
                         <AboutCard />
                     </AboutContext.Provider>
-                    {/* </div> */}
+                    
                 </div>
             </Row>
 
         </section>
-        // <div className="card">
-        //     <Section>
 
-        //         <Row>
-        //             <Col>
-        //                 {/* <!-- Image of Me --> */}
-        //                 <img id="photo-of-me" src={Photo} alt="me smiling"></img>
-        //             </Col>
-
-        //             <Col>
-        //                 {/* <!--Heading--> */}
-        //                 <h4 className="card-title">
-        //                     About Me
-        //                 </h4>
-
-        //                 {/* <!--Card paragraphs--> */}
-        //                 <AboutContext.Provider value={aboutState}>
-        //                     <AboutCard />
-        //                 </AboutContext.Provider>
-
-        //             </Col>
-        //         </Row>
-        //     </Section>
-        // </div>
 
     )
 
