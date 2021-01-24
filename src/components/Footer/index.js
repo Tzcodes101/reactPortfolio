@@ -16,7 +16,7 @@ function Footer() {
                 </li>
             </ul>
             <p className="pull-right">
-                <i class="fas fa-heart" /> Written with React.js
+                <i class="fas fa-heart" /> Written in React.js
             </p>
         </footer>
     )
