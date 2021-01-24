@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import AboutContext from "../../utils/AboutContext";
-import { Row, Col } from "../Grid";
+import { Row, Col, Section } from "../Grid";
 import "./style.css";
 
 function AboutCard() {
     const { id, text, email, phone, resume, github, linkedin } = useContext(AboutContext);
     return (
+        <Section>
         <div className="about-data" key={id}>
 
 
@@ -43,6 +44,7 @@ function AboutCard() {
             </div>
 
         </div>
+        </Section>
     )
 }
 

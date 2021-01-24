@@ -34,7 +34,7 @@ function AboutData() {
                 <h1 id="sub-hi">A Software Engineer.</h1>
             </div>
             <Row>
-
+                
                 <div className="main-col">
 
                     <div className="pic-col">
@@ -46,6 +46,7 @@ function AboutData() {
                     </AboutContext.Provider>
                     
                 </div>
+            
             </Row>
 
         </section>
