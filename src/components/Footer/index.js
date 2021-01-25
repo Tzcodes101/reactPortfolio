@@ -12,7 +12,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/talia-zisman-4b758a140/" className="button" target="_blank noopener norefferer"><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1OKpODKBrvxIHbLJPnELBVbCCh9TIxrKT/view?usp=sharing" className="button" target="_blank noopener norefferer"><i class="far fa-file"></i></a>
+                    <a href="https://drive.google.com/file/d/1tdL5f7z1NV2LBkdolqkJHoVhmUlp7Jpk/view?usp=sharing" className="button" target="_blank noopener norefferer"><i class="far fa-file"></i></a>
                 </li>
             </ul>
             <p className="pull-right">
